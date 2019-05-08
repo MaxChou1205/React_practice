@@ -6,6 +6,3 @@
 
 # run server
 ## `npm start`
-
-### Debug工具
-估狗搜尋 React Developer Tools，安裝chrome套件

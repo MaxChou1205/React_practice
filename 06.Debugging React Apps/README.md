@@ -7,6 +7,7 @@
 ![開發者工具下中斷點](note/註解&#32;2019-05-06&#32;233838.png)
 
 ## Component Throw Error
+[參考](https://reactjs.org/docs/error-boundaries.html)
 1. 建立ErrorBoundary資料夾放除錯用的Component，其內建立ErrorBoundadry.js  
 ```
 import React, { Component } from 'react';
