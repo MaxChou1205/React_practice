@@ -29,13 +29,13 @@ console.log(myName); // TypeError: Assignment to constant variable.
 ---
 
 ## [Arrow Function](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-一般function：
+### 一般function：
 ```
 function printName(name){
     console.log(name);
 }
 ```
-Arrow Function：
+### Arrow Function：
 ```
 const printName = (name) => {
     console.log(name);
@@ -104,7 +104,7 @@ func.call(obj) //Object {a: 1}
 ```
 ---
 # [Export](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/export) & [Import](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/import)
-export可以導出變數或函式模組，常見有兩種模式：
+### export可以導出變數或函式模組，常見有兩種模式：
 1. default export：可以直接import或是在import時指定alias的變數
 ```
 // person.js
@@ -121,7 +121,7 @@ export const clean = () => {...}
 export const baseData = 10;
 ```
 
-import
+### import
 ```
 // app.js
 // import default
@@ -165,8 +165,9 @@ const person = new Person();
 person.printMyName();
 person.printGender();
 ```
+---
 # [Spread](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Operators/Spread_syntax) & [Rest Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
-spread：可展開array或是對object做淺層複製(Object.assign())
+### spread：可展開array或是對object做淺層複製(Object.assign())
 ```
 const number = [1,2,3];
 const newNumbers1 = [number,4]; // [[1,2,3],4]
@@ -184,7 +185,7 @@ const newPerson = {
 
 console.log(newPerson); // {age:28,name:'Max'}
 ```
-rest：可以表示不確定數量的參數，並將其視為一個陣列
+### rest：可以表示不確定數量的參數，並將其視為一個陣列
 ```
 const filter = (...args) => {
     return args.filter(el=>el===1);
@@ -194,7 +195,7 @@ console.log(filter(1,2,3)); // [1]
 ```
 ---
 # [Destructuring](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-array
+### array
 ```
 const numbers = [1,2,3];
 [num1, ,num3] = numbers;
@@ -206,7 +207,7 @@ console.log(a); // 10
 console.log(b); // 20
 console.log(rest); // [30, 40, 50]
 ```
-object
+### object
 ```
 const {name} = {name:'Max',age:27}
 console.log(name) // Max
