@@ -4,6 +4,7 @@
 3. React Component
 4. JSX
 5. Functional Component & Class Component
+6. Method & Event & Two Way Binding
 
 # [建立React solution](https://github.com/facebook/create-react-app)
 ### 安裝 React
@@ -282,10 +283,10 @@ const App = props =>
 
 # Props & State
 Props：
-![props](/note/註解&#32;2019-05-11&#32;230536.png)
+![props](note/註解&#32;2019-05-11&#32;230536.png)
 
 State：
-![state](/note/註解&#32;2019-05-11&#32;230753.png)
+![state](note/註解&#32;2019-05-11&#32;230753.png)
 
 # 在Method中傳遞參數
 1. Bind(較建議使用)：`this.switchNameHandler.bind(this, 'Max!!!')`
