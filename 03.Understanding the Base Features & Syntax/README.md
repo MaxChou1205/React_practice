@@ -282,10 +282,10 @@ const App = props =>
 ```
 
 # Props & State
-Props：
+Props：  
 ![props](note/註解&#32;2019-05-11&#32;230536.png)
 
-State：
+State：  
 ![state](note/註解&#32;2019-05-11&#32;230753.png)
 
 # 在Method中傳遞參數
