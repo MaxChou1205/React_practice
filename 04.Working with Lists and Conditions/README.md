@@ -43,7 +43,7 @@ return (
 ```
 
 # List
-利用原生的array map去render array中的內容。  
+利用原生的array map去render array中的內容  
 其中建議加上`key`保留字，加快re-render
 ```
 if (this.state.showPersons)
@@ -57,7 +57,7 @@ if (this.state.showPersons)
           click={this.deletePersonsHandler.bind(this, index)}
           name={person.name}
           age={person.age}
-          key={person.id}
+          key={person.id} // Important
           changed={(event) => this.nameChangedHandler(event, person.id)}></Person>
       })}
     </div>
