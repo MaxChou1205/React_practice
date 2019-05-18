@@ -224,7 +224,7 @@ localIdentName: '[name]__[local]__[hash:base64:5]'
 ```
 
 之後在js import CSS的部分改成用module引入的方式`import classes from './App.css';`  
-className也改成用餐照變數的方式`className={classes.App}`
+className也改成用參照變數的方式`className={classes.App}`
 ```
 return (
   <div className={classes.App}>
